@@ -24,10 +24,12 @@
     "url": "git+https://github.com/yourusername/cryptoqrcode.git"
   },
   "keywords": [
-    "qr",
-    "code",
-    "cryptocurrency",
-    "bitcoin",
-    "ethereum"
+    "QR Code",
+    "Wallet",
+    "Cryptocurrency",
+    "Bitcoin",
+    "Ethereum",
+    "JavaScript",
+    "TypeScript"
   ]
 }
