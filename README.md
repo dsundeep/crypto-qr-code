@@ -3,7 +3,7 @@
 [![crypto-qr-code](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://www.npmjs.com/package/crypto-qr-code)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
-**crypto-qr-code** is a library for generating QR codes for cryptocurrency wallet addresses, supporting Bitcoin (BTC) and Ethereum (ETH). It provides options for customizing the QR code's format and image export type.
+**crypto-qr-code** is a library for generating QR codes for cryptocurrency wallet addresses, supporting Bitcoin (BTC) and Ethereum (ETH). It provides options for customizing the QR code's format and currency type.
 
 ## Installation
 
