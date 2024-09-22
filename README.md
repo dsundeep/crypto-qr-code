@@ -1,14 +1,13 @@
 # crypto-qr-code
 
-[![crypto-qr-code](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://www.npmjs.com/package/cryptoqrcode)
-[![Test Coverage](https://img.shields.io/coveralls/github/dsundeep/crypto-qr-code.svg)](https://coveralls.io/github/dsundeep/crypto-qr-code)
+[![crypto-qr-code](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://www.npmjs.com/package/crypto-qr-code)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
-**CryptoQRCode** is a library for generating QR codes for cryptocurrency wallet addresses, supporting Bitcoin (BTC) and Ethereum (ETH). It provides options for customizing the QR code's format and error correction level.
+**crypto-qr-code** is a library for generating QR codes for cryptocurrency wallet addresses, supporting Bitcoin (BTC) and Ethereum (ETH). It provides options for customizing the QR code's format and image export type.
 
 ## Installation
 
-You can install **CryptoQRCode** via npm:
+You can install **crypto-qr-code** via npm: [![npm install](https://img.shields.io/npm/dt/crypto-qr-code.svg)](https://www.npmjs.com/package/crypto-qr-code)
 
 ```bash
 npm install crypto-qr-code
@@ -19,9 +18,9 @@ npm install crypto-qr-code
 Here's how to use the library:
 
 ```typescript
-import CryptoQRCodeGenerator from 'cryptoqrcode';
+import crypto-qr-codeGenerator from 'crypto-qr-code';
 
-const qrGenerator = new CryptoQRCodeGenerator();
+const qrGenerator = new crypto-qr-codeGenerator();
 
 async function generateQRCode() {
     try {

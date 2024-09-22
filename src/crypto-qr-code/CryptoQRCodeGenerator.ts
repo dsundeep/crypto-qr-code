@@ -10,6 +10,7 @@ class CryptoQRCodeGenerator {
             throw new Error('Wallet address is required.');
         }
 
+        // initialize with default values
         const {
             currency = 'BTC',
             format = 'image/png',
