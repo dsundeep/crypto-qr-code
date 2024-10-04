@@ -43,6 +43,12 @@ The `generateQRCode` method accepts two parameters:
    - **currency**: The type of cryptocurrency (default: `BTC`). Options are `BTC` for Bitcoin and `ETH` for Ethereum.
    - **format**: The desired image format for the QR code (default: `image/png`). Options are `image/png`, `image/jpeg`, and `image/svg+xml`.
 
+## Error Scenarios
+1. **Empty Wallet Address**: The wallet address is a required parameter.
+2. **Invalid Currency**: At present, we support only BTC and ETH.
+3. **Invalid Wallet Address**: If the provided address is not according to the standards, an error will be thrown.
+4. **QR Code Generation Error**: If there is problem generating the QR code, an error will be thrown.
+
 ## Examples
 
 - Here’s a full example of generating a QR code for a Bitcoin address:
