@@ -1,6 +1,6 @@
 # crypto-qr-code
 
-[![crypto-qr-code](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://www.npmjs.com/package/crypto-qr-code)
+[![crypto-qr-code](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://www.npmjs.com/package/crypto-qr-code)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
 **crypto-qr-code** is a library for generating QR codes for cryptocurrency wallet addresses, supporting Bitcoin (BTC) and Ethereum (ETH). It provides options for customizing the QR code's format and currency type.
@@ -42,6 +42,12 @@ The `generateQRCode` method accepts two parameters:
 2. **options**: An object that can include:
    - **currency**: The type of cryptocurrency (default: `BTC`). Options are `BTC` for Bitcoin and `ETH` for Ethereum.
    - **format**: The desired image format for the QR code (default: `image/png`). Options are `image/png`, `image/jpeg`, and `image/svg+xml`.
+
+## Error Scenarios
+1. **Empty Wallet Address**: The wallet address is a required parameter.
+2. **Invalid Currency**: At present, we support only BTC and ETH.
+3. **Invalid Wallet Address**: If the provided address is not according to the standards, an error will be thrown.
+4. **QR Code Generation Error**: If there is problem generating the QR code, an error will be thrown.
 
 ## Examples
 
